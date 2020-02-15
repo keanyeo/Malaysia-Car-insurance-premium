@@ -14,7 +14,7 @@ import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 
-public class initial extends Application {
+public class Initial extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -139,7 +139,7 @@ public class initial extends Application {
                     return;
                 }
                 
-                car carObj = new car(
+                Car carObj = new Car(
                 		Integer.parseInt(ccField.getText()),
                 		Integer.parseInt(mvField.getText()),
                 		Integer.parseInt(ncdField.getText()),

@@ -1,6 +1,6 @@
 package car_insurance_cal;
 
-public class car {
+public class Car {
 	
 	public int cc;
 	public int market_value;
@@ -8,7 +8,7 @@ public class car {
 	public int windscreen_cover;
 	public int stamp=10;
 	
-	public car(int cc,int market_value,int ncd,int windscreen_cover) {
+	public Car(int cc,int market_value,int ncd,int windscreen_cover) {
 		this.cc=cc;
 		this.market_value=market_value;
 		this.ncd=ncd;
